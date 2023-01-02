@@ -1,0 +1,50 @@
+# macOS
+.DS_Store
+
+**/target/
+/target/
+*/target/*
+out/
+.classpath
+.project
+.settings
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**
+!**/src/test/**
+pom.xml.bak
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+
+### VS Code ###
+.vscode/
+terraform/.terraform/
+
+*.lock
+/helmfile/*/charts/*.tgz
+*.log
